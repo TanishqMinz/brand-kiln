@@ -74,6 +74,7 @@ const TaskDashboard: React.FC = () => {
     dispatch(setSearchQuery(event.target.value));
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleDragEnd = (event: any) => {
     const { active, over } = event;
 
